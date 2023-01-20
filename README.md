@@ -1,31 +1,31 @@
-**ISBN Validation**
+# ISBN Validation
 
 This project contains a solution for validating International Standard Book Numbers (ISBNs) using Java. The solution can validate both ISBN-10 and ISBN-13 numbers and can also convert a valid ISBN-10 to ISBN-13.
 
 
-**Getting Started**
+# Getting Started
 
 These instructions will guide you on how to use the solution in your project.
 
 
-**Prerequisites**
+# Prerequisites
 Java 8 or later
 
 
-**Installing**
+# Installing
 Clone or download the project to your local machine.
 Import the project into your IDE.
 Build the project with your preferred build tool (e.g. Maven or Gradle) or by adding the JUnit .jar file to your classpath.
 
 
-**Usage**
+# Usage
 The solution is implemented in the ISBN class. You can use the isbn13() method to validate or convert ISBNs.
 
 ISBN.isbn13("9780316066525"); // returns "Valid"
 ISBN.isbn13("0316066524"); // returns "9780316066525"
 
 
-**Running the tests**
+# Running the tests
 To run the tests, use your preferred method to run JUnit tests.
 
 Using an IDE: Most modern IDEs (Integrated Development Environments) like Eclipse, IntelliJ IDEA, and NetBeans have built-in support for JUnit and provide a way to run the test suite directly from the IDE. You can usually find the option to run tests in the "Run" or "Debug" menu.
@@ -58,9 +58,9 @@ If you are running your program from the command line, you can add the JUnit .ja
 Please keep in mind that adding the JUnit .jar file to your classpath will make your project dependent on the JUnit library, so you'll need to make sure the JUnit .jar file is available in the classpath whenever you run your tests.
 
 
-**Built With**
+# Built With
 Java - Programming language used
 JUnit - Testing framework
 
-**Authors**
-Karabo Masalesa - https://github.com/Kaaribu/codechallenge
+# Authors
+Karabo Masalesa - *https://github.com/Kaaribu/codechallenge*
