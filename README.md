@@ -43,17 +43,17 @@ Using a build tool like Maven or Gradle: If your project uses a build tool like 
  the run *mvn test* command to run the test suite
 
 2. If you are using Gradle, you can add the following dependency to your *build.gradle* file:
-dependencies {
+`dependencies {
     testImplementation 'junit:junit:4.12'
-}
+}`
 
-and run *gradle test* command to run the test suite.
+and run `gradle test` command to run the test suite.
 
 On the other hand, if you don't want to use a build tool, you can add JUnit .jar file to your classpath. You will need to download the JUnit .jar file from the JUnit website, and add it to your classpath. The steps to add it to the classpath depends on the operating system you're using and whether you're using an IDE or the command line.
 
 If you are using an IDE like Eclipse, IntelliJ IDEA, or NetBeans, you can add the JUnit .jar file to your project's classpath by following the instructions for your specific IDE.
 If you are running your program from the command line, you can add the JUnit .jar file to your classpath by using the *-cp* or *-classpath* option when running the Java command. The syntax will look something like this:
-*java -cp path/to/junit.jar:path/to/your-project-classpath Main*
+`java -cp path/to/junit.jar:path/to/your-project-classpath Main`
 
 Please keep in mind that adding the JUnit .jar file to your classpath will make your project dependent on the JUnit library, so you'll need to make sure the JUnit .jar file is available in the classpath whenever you run your tests.
 
